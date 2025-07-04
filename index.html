@@ -255,7 +255,7 @@ Ready to treat your pup the healthy way? Check out our hand-picked, eco-friendly
   <h2 style="color: #ff6f61; font-family: 'Pacifico', cursive;">🐾 Leave a Review</h2>
   <p>We’d love to hear what you and your furry friend think of GG’s Pet Shop!</p>
 
-  <form action="https://formsubmit.co/ggspetstore@gmail.com" method="POST">
+  <form action="https://getform.io/f/aejlmwrb" method="POST">
   <input type="hidden" name="_captcha" value="false">
   <input type="text" name="name" placeholder="Your Name" required><br><br>
   <input type="email" name="email" placeholder="Your Email" required><br><br>
@@ -398,7 +398,7 @@ Ready to treat your pup the healthy way? Check out our hand-picked, eco-friendly
     <span class="popup-close" onclick="closePopup()">×</span>
     <h2>🎉 Sign Up for 20% Off!</h2>
     <p>Get VIP access to giveaways and freebies!</p>
-    <form action="https://formsubmit.co/ggspetstore@gmail.com" method="POST">
+    <form action="https://getform.io/f/aejlmwrb" method="POST">
       <input type="email" name="email" placeholder="Enter your email" required>
       <button type="submit">Get My 20% Off</button>
     </form>
@@ -416,6 +416,78 @@ Ready to treat your pup the healthy way? Check out our hand-picked, eco-friendly
   function closePopup() {
     document.getElementById("popup").style.display = "none";
   }
-</script>
+</script> <style>
+/* Bubble Container */
+.bubble-wrapper {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  padding: 40px 20px;
+  perspective: 800px;
+  background-color: #0d0d0d; /* Optional dark section bg */
+}
+
+/* Individual Bubble */
+.bubble {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  overflow: hidden;
+  background-color: #000; /* Black bubble background */
+  border: 4px solid gold; /* Gold border */
+  box-shadow: 0 6px 16px rgba(255, 215, 0, 0.3); /* Gold glow */
+  transition: transform 0.5s ease, opacity 0.5s ease, box-shadow 0.3s ease;
+  animation: float 4s ease-in-out infinite;
+  cursor: pointer;
+  opacity: 0;
+  animation: fadeIn 1s ease forwards, float 4s ease-in-out infinite;
+}
+
+/* Image in Bubble */
+.bubble img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Hover Effect: Zoom + Glow */
+.bubble:hover {
+  transform: scale(1.2);
+  box-shadow: 0 12px 30px rgba(255, 215, 0, 0.6);
+}
+
+/* Floating Animation */
+@keyframes float {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(-10px); }
+  100% { transform: translateY(0px); }
+}
+
+/* Fade In Animation */
+@keyframes fadeIn {
+  to { opacity: 1; }
+}
+</style>
+
+<!-- 💎 Luxury Floating Bubbles (Insert Real Links/Images) -->
+<div class="bubble-wrapper">
+  <a href="https://1b2rh0-mf.myshopify.com/products/cozypet-washable-plush-pet-bed-the-ultimate-snuggle-spot-for-your-furry-friend-1031523495" class="bubble" target="_blank">
+    <img src="https://i.postimg.cc/zB7CTS4k/3.png" alt="Eco friendly Luxury Pet Bed ">
+  </a>
+
+  <a href="https://1b2rh0-mf.myshopify.com/products/travel-dog-water-bottle-3-in-1-leakproof-hydration" class="bubble" target="_blank">
+    <img src="https://i.postimg.cc/gjyrc1gc/3-1.png" alt="Eco friendly 3 in 1 portable pet water bottle bowl">
+  </a>
+
+  <a href="https://1b2rh0-mf.myshopify.com/products/reflective-and-breathable-mesh-dog-harness" class="bubble" target="_blank">
+    <img src="https://i.postimg.cc/QxV3S2r2/2.png" alt="Eco-Freindly Reflective Leash and Harness">
+  </a>
+
+  <a href="https://1b2rh0-mf.myshopify.com/products/%F0%9F%90%BE-ultimate-outdoor-pup-pack-bundle-save" class="bubble" target="_blank">
+    <img src="https://i.postimg.cc/6Q1MzmLQ/Bundle-3-1.png" alt="Ultimate pet gift Bundle with freebie">
+  </a>
+</div>
+
 </body>
 </html>
